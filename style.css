@@ -1,0 +1,181 @@
+.hederpadre{
+    background-image: url('Imagenes/foto_header.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#cuerpo {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image:url("Imagenes/foto_fondo2.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.titulosprincipales
+{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+
+#botonesheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+    color: white;
+
+}
+#botonesdeusuario {
+    background-color: transparent;
+    border: none;
+    /*color: white;*/
+}
+#iniciosesion
+{
+    align-items: center;
+    margin: 20px 20px;
+    padding:10px 10px;
+    border-radius: 50%;
+}
+#iniciosesion:hover
+{
+    background-color: lightblue;
+}
+#registrarse
+{
+    align-items: center;
+    margin: 20px 20px;
+    padding:10px 10px;
+    border-radius: 50%;
+}
+#registrarse:hover
+{
+    background-color: lightblue;
+}
+#\+info
+{
+    background-color: white;
+    align-items: center;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+#\+info:hover
+{
+    background-color: lightblue;
+}
+#botonesalquiler {
+
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    border: 50px solid transparent;
+    border-radius: 5px;
+    display:flex;
+    margin: 60px;
+    font-size: 50px;
+
+}
+
+#tituloreserva
+{
+    text-align: center;
+    color: white;
+}
+#ciudad
+{
+    text-align: left;
+    font-size: 40px;
+    background-color: lightgreen;
+}
+#deporte
+{
+    text-align: center;
+    font-size: 40px;
+    background-color: lightgreen;
+}
+#dia
+{
+    text-align: center;
+    font-size: 40px;
+    background-color: lightgreen;
+}
+#hora
+{
+    text-align: right;
+    font-size: 40px;
+    background-color: lightgreen;
+}
+#tituloalquiler
+{
+    text-align: center;
+    font-size: 40px;
+    background-color: lightgreen;
+}
+/*header button:hover a {*/
+/*    border-color: #007bff;*/
+/*    color: #007bff;*/
+/*}*/
+#tituloreserva
+{
+    font-size: 70px;
+}
+/*#paginformacion{*/
+/*    font-size: 50px;*/
+/*    text-align: center;*/
+/*    color: white;*/
+/*}*/
+/*#infocanchas{*/
+/*    font-size:25px;*/
+/*    text-align: center;*/
+/*    justify-content: left;*/
+/*    color: white;*/
+/*}*/
+/*#registrodatos{*/
+/*    text-align: center;*/
+/*    font-size: 25px;*/
+/*    color: white;*/
+/*}*/
+/*#selección{*/
+/*    font-size: 30px;*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*    margin-left: 100px;*/
+/*    margin-right: 100px;*/
+
+/*}*/
+/*#confirmaciontexto{*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*    font-size: 30px;*/
+/*}*/
+/*#fintexto{*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*    font-size: 50px;*/
+/*}*/
+#imagenalquiler
+{
+    color: lightgreen;
+}
+/*.botonimagen*/
+/*{*/
+/*    border-radius: 10%;*/
+/*}*/
+/*#textoregistro{*/
+/*    font-size: 30px;*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*}*/
+.logo_boton_inicio
+{
+    text-align: left;
+}

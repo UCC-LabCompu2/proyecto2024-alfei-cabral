@@ -6,41 +6,70 @@
     <meta name="keywords" content="Alquilar,Registrarse,Inicio de sesion,Info de la pagina,ciudad deportes, ">
     <meta name="author" content="Juan Cabral, Mateo Alfei">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CanchaExpress.com</title>
+    <title>CanchasExpress.com</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
-<body>
-<header>
-    <button><a href="Index.html"><img src="Imagenes/Foto_logo.png" height="100" ></a></button>
-    <h1 id="titulocancha">CanchaExpress</h1><button id="iniciosesion"><a href="InicioSesion.html">Iniciar Sesion</a></button>
-    <h2 id="tituloreserva">Reserva tu cancha!</h2><button id="Registrarse"><a href="Registracion.html">Registrarse</a></button>
-</header>
-<form>
-    <label for="ciudad"> Ciudad:</label>
-    <select  name="ciudad" id="ciudad">
-        <option value="buenos aires">Buenos Aires</option>
-        <option value="cordoba">   Córdoba </option>
-        <option value="catamarca"> Catamarca </option>
-        <option value="santa fe"> Santa Fe </option>
-        <option value="tierra del fuego"> Tierra del Fuego </option>
-        <option value="misiones"> Misiones </option>
-    </select>
-    <label for="deporte">Deporte:</label>
-    <select id="deporte">
-        <option value="futbol">Fútbol</option>
-        <option value="tenis">Tenis</option>
-        <option value="basquet">Básquet</option>
-        <option value="padel">Padel</option>
-    </select>
+<body id="cuerpo">
 
-    <label for="dia">Día:</label>
-    <input type="date" id="dia" min="2024-05-15">
-    <label for="hora">Hora:</label>
-    <input type="time" id="hora">
-    <p>
+    <header id="botonesheader" class="hederpadre">
+        <a href="Index.html"><button id="botondeinicio"><img src="Imagenes/foto_logo.jpg" height="100" class="logo_boton_inicio" alt="Logo de página"></button></a>
+        <h1 class="titulosprincipales">CanchasExpress</h1>
+        <div id="botonesdeusuario">
+            <a href="iniciosesion.html"><button id="iniciosesion">INICIAR SESIÓN</button></a>
+            <a href="Registracion.html"><button id="registrarse">REGISTRARSE</button></a>
+            <a href="Infoalquileres.html"><button id="+info">+INFO</button></a>
+        </div>
+    </header>
 
-    </p>
-<button id="alquiler"><a href="Alquiler.html">Alquila!</a></button>
-</form>
+    <main >
+
+
+        <h2 id="tituloreserva">Reserva tu cancha!</h2>
+<!--            <h1>Reserva tu cancha!</h1>-->
+
+
+
+
+
+
+        <div id="botonesalquiler">
+        <p>
+            <label for="ciudad" class="ciudad"> Ciudad:</label>
+            <select  name="ciudad" id="ciudad">
+                <option value="buenos aires">Buenos Aires</option>
+                <option value="cordoba">   Córdoba </option>
+                <option value="catamarca"> Catamarca </option>
+                <option value="santa fe"> Santa Fe </option>
+                <option value="tierra del fuego"> Tierra del Fuego </option>
+                <option value="misiones"> Misiones </option>
+            </select>
+            <label for="deporte">Deporte:</label>
+            <select id="deporte">
+                <option value="futbol">Fútbol</option>
+                <option value="tenis">Tenis</option>
+                <option value="basquet">Básquet</option>
+                <option value="padel">Padel</option>
+            </select>
+
+            <label for="dia">Día:</label>
+            <input type="date" id="dia" min="2024-05-15"/>
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora">
+        </p>
+            <p>
+
+            </p>
+            <p>
+            <a href="Alquiler.html"><button id="alquiler">Alquila!</button></a>
+        </p>
+
+        </div>
+
+
+</main>
+<footer>
+<!--    <a href="InfoContacto.html"><button id="info_de_contacto">Información de Contacto</button></a>-->
+</footer>
 </body>
 </html>
