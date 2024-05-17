@@ -10,8 +10,8 @@
 2303724@ucc.edu.ar |Juan|
 
 ### Tecnologías Usadas
-*HTML5
-*CSS3
-*JavaScript
+* HTML5
+* CSS3
+* JavaScript
 
 Link deel proyecto:
