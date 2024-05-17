@@ -9,7 +9,7 @@
 2308459@ucc.edu.ar |Mateo|
 2303724@ucc.edu.ar |Juan|
 
-## Tecnologías Usadas
+### Tecnologías Usadas
 *HTML5
 *CSS3
 *JavaScript
