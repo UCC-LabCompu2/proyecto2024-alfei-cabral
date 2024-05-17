@@ -1,7 +1,7 @@
 # CanchasExpress
 ## Alumnos
-*Alfei Mateo
-*Cabral Juan Ignacio
+* Alfei Mateo
+* Cabral Juan Ignacio
 ## Descripción
 *Proyecto 2024*: Página web para reservar canchas de futbol.
 | Email | Alumno |
