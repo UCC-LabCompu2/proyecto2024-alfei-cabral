@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a89cee00-b7f9-44f5-8c31-113f93bbef81" name="Changes" comment="Se agrego etiquetas semanticas, carpeta con imagenes, se hizo pagina de registro">
-      <change afterPath="$PROJECT_DIR$/Imagenes/canchafutbol1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagenes/canchafutbol2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagenes/canchafutbol3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagenes/foto_fondo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagenes/foto_header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagenes/foto_logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infocontacto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iniciosesion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/Foto_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InicioSesion.html" beforeDir="false" afterPath="$PROJECT_DIR$/Infoalquileres.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Registracion.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registracion.html" afterDir="false" />
-    </list>
-    <list id="8fc891fd-2f98-4cdc-87e8-4dc4a5cbc4fe" name="Changes by User" comment="">
-      <change afterPath="$PROJECT_DIR$/confirmación.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finreserva.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alquiler.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alquiler.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Registracion.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registracion.html" afterDir="false" />
-    </list>
+    <list default="true" id="a89cee00-b7f9-44f5-8c31-113f93bbef81" name="Changes" comment="avanzamos en varias cosas y no comiteamos por partes" />
+    <list id="8fc891fd-2f98-4cdc-87e8-4dc4a5cbc4fe" name="Changes by User" comment="idem commit anterior" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,17 +34,6 @@
     &quot;accountId&quot;: &quot;8c8a3125-9c84-434e-a807-df8980ea084c&quot;
   }
 }</component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/Registracion.html">
-      <ranges>
-        <range start1="1" end1="2" start2="1" end2="2" changelist="a89cee00-b7f9-44f5-8c31-113f93bbef81" />
-        <range start1="4" end1="5" start2="4" end2="6" changelist="8fc891fd-2f98-4cdc-87e8-4dc4a5cbc4fe" />
-        <range start1="6" end1="9" start2="7" end2="11" changelist="8fc891fd-2f98-4cdc-87e8-4dc4a5cbc4fe" />
-        <range start1="33" end1="34" start2="35" end2="35" changelist="8fc891fd-2f98-4cdc-87e8-4dc4a5cbc4fe" />
-        <range start1="35" end1="35" start2="36" end2="39" changelist="8fc891fd-2f98-4cdc-87e8-4dc4a5cbc4fe" />
-      </ranges>
-    </file>
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -119,7 +88,7 @@
       <workItem from="1715868357088" duration="1737000" />
       <workItem from="1715909818306" duration="1668000" />
       <workItem from="1715961737085" duration="256000" />
-      <workItem from="1715962009171" duration="22862000" />
+      <workItem from="1715962009171" duration="22997000" />
     </task>
     <task id="LOCAL-00001" summary="Sketch y mockup para desktop y mobile">
       <option name="closed" value="true" />
@@ -145,7 +114,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715966304082</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="avanzamos en varias cosas y no comiteamos por partes">
+      <option name="closed" value="true" />
+      <created>1715985206480</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715985206480</updated>
+    </task>
+    <task id="LOCAL-00005" summary="idem commit anterior">
+      <option name="closed" value="true" />
+      <created>1715985222757</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715985222757</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +152,8 @@
     <MESSAGE value="Sketch y mockup para desktop y mobile" />
     <MESSAGE value="html de la pagina principal" />
     <MESSAGE value="Se agrego etiquetas semanticas, carpeta con imagenes, se hizo pagina de registro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrego etiquetas semanticas, carpeta con imagenes, se hizo pagina de registro" />
+    <MESSAGE value="avanzamos en varias cosas y no comiteamos por partes" />
+    <MESSAGE value="idem commit anterior" />
+    <option name="LAST_COMMIT_MESSAGE" value="idem commit anterior" />
   </component>
 </project>
