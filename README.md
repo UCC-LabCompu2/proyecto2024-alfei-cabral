@@ -14,4 +14,4 @@
 * CSS3
 * JavaScript
 
-Link deel proyecto:
+Link del proyecto:
