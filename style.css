@@ -1,18 +1,40 @@
-.hederpadre{
-    background-image: url('Imagenes/foto_header.jpg');
-    background-size: cover;
-    background-position: center;
-}
-#cuerpo {
+.cuerpo {
     font-family: Arial, sans-serif;
-    margin: 0px;
-    padding: 0px;
     background-image:url("Imagenes/foto_fondo2.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     color: white;
     font-size: 30px;
     text-align: center;
+}
+.headerpadre{
+
+    background-image: url('Imagenes/foto_header.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 152px;
+}
+#botonesheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 30px;
+    color: white;
+}
+.logo_boton_inicio
+{
+    border-radius: 50%;
+    text-align: left;
+}
+.logo_boton_inicio button
+{
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    background-color: transparent;
+}
+.logo_boton_inicio:hover
+{
+    cursor: cell;
 }
 .titulosprincipales
 {
@@ -21,56 +43,31 @@
     font-size: 50px;
 }
 
-
-#botonesheader {
+#botonesdeusuario {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-
-    color: white;
+    gap: 20px;
 
 }
-#botonesdeusuario {
+#botonesdeusuario button
+{
+    font-family: Bahnschrift;
     background-color: transparent;
     border: none;
-    /*color: white;*/
-}
-#iniciosesion
-{
-    align-items: center;
+    color: white;
+    cursor: cell ;
+    border-radius: 50%;
     margin: 20px 20px;
     padding:10px 10px;
-    border-radius: 50%;
+    transition: background-color 0.5s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
 }
-#iniciosesion:hover
+#botonesdeusuario button:hover
 {
-    background-color: lightblue;
+
+    background-color: rgba(0, 0, 0, 0.55);
 }
-#registrarse
-{
-    align-items: center;
-    margin: 20px 20px;
-    padding:10px 10px;
-    border-radius: 50%;
-}
-#registrarse:hover
-{
-    background-color: lightblue;
-}
-#\+info
-{
-    background-color: white;
-    align-items: center;
-    margin: 20px 20px;
-    padding: 10px 10px;
-    border-radius: 50%;
-}
-#\+info:hover
-{
-    background-color: lightblue;
-}
-#botonesalquiler {
+
+#botonesalquiler-select {
 
     align-items: center;
     text-align: center;
@@ -80,11 +77,33 @@
     border: 50px solid transparent;
     border-radius: 5px;
     display:flex;
-    margin: 60px;
-    font-size: 50px;
+    margin: 10px;
+    font-size: 30px;
 
 }
 
+#alquiler{
+    color: white;
+    margin-bottom: 80px;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    border-radius: 50%;
+    cursor: cell;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    background-color: transparent;
+}
+#alquiler button
+{
+
+    border-radius: 50%;
+    text-align: center;
+
+}
+#alquiler button:hover
+{
+    background-color: rgba(0, 0, 0, 0.55);
+}
 #tituloreserva
 {
     text-align: center;
@@ -175,7 +194,21 @@
 /*    color: white;*/
 /*    text-align: center;*/
 /*}*/
-.logo_boton_inicio
+.info_de_contacto {
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    cursor: cell;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    transition: background-color 0.5s;
+}
+.info_de_contacto button
 {
     text-align: left;
+}
+.info_de_contacto:hover {
+    background-color: lightblue;
 }

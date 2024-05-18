@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a89cee00-b7f9-44f5-8c31-113f93bbef81" name="Changes" comment="avanzamos en varias cosas y no comiteamos por partes" />
+    <list default="true" id="a89cee00-b7f9-44f5-8c31-113f93bbef81" name="Changes" comment="avanzamos en varias cosas y no comiteamos por partes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alquiler.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alquiler.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagenes/Foto_fondo.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagenes/Foto_fondo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infoalquileres.html" beforeDir="false" afterPath="$PROJECT_DIR$/Infoalquileres.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registracion.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registracion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmación.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirmación.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finreserva.html" beforeDir="false" afterPath="$PROJECT_DIR$/finreserva.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iniciosesion.html" beforeDir="false" afterPath="$PROJECT_DIR$/iniciosesion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <list id="8fc891fd-2f98-4cdc-87e8-4dc4a5cbc4fe" name="Changes by User" comment="idem commit anterior" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,23 +57,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.Index.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Juan/Desktop/EjerciciosLab2/proyecto2024-alfei-cabral/Imagenes",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.Index.html.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Juan/Desktop/EjerciciosLab2/proyecto2024-alfei-cabral/Imagenes&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Juan\Desktop\EjerciciosLab2\proyecto2024-alfei-cabral\Imagenes" />
@@ -89,6 +101,8 @@
       <workItem from="1715909818306" duration="1668000" />
       <workItem from="1715961737085" duration="256000" />
       <workItem from="1715962009171" duration="22997000" />
+      <workItem from="1715988683397" duration="1631000" />
+      <workItem from="1716044411318" duration="11281000" />
     </task>
     <task id="LOCAL-00001" summary="Sketch y mockup para desktop y mobile">
       <option name="closed" value="true" />
