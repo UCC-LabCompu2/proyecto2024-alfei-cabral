@@ -1,5 +1,17 @@
-Titulo del proyecto: CanchasExpress.com
-Autores: Mateo Alfei y Juan Ignacio Cabral
-links:
-Contenido de la pagina: es una pagina para reservar canchas de cualquier deporte en cualquier ciudad de Argentina
-Tecnologias: Html5, Css3, JavaScript
+# CanchasExpress
+## Alumnos
+* Alfei Mateo
+* Cabral Juan Ignacio
+## Descripción
+*Proyecto 2024*: Página web para reservar canchas de futbol.
+| Email | Alumno |
+|-------|--------|
+2308459@ucc.edu.ar |Mateo|
+2303724@ucc.edu.ar |Juan|
+
+### Tecnologías Usadas
+* HTML5
+* CSS3
+* JavaScript
+
+Link del proyecto:
