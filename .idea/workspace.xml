@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a89cee00-b7f9-44f5-8c31-113f93bbef81" name="Changes" comment="avanzamos en varias cosas y no comiteamos por partes">
+    <list default="true" id="a89cee00-b7f9-44f5-8c31-113f93bbef81" name="Changes" comment="reescritura del codigo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alquiler.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alquiler.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infoalquileres.html" beforeDir="false" afterPath="$PROJECT_DIR$/Infoalquileres.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infocontacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/Infocontacto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registracion.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registracion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmacion.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirmacion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finreserva.html" beforeDir="false" afterPath="$PROJECT_DIR$/finreserva.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iniciosesion.html" beforeDir="false" afterPath="$PROJECT_DIR$/iniciosesion.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <list id="8fc891fd-2f98-4cdc-87e8-4dc4a5cbc4fe" name="Changes by User" comment="idem commit anterior" />
@@ -56,7 +62,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.Index.html.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/Juan/Desktop/EjerciciosLab2/proyecto2024-alfei-cabral/Imagenes",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -96,7 +102,7 @@
       <workItem from="1715962009171" duration="22997000" />
       <workItem from="1715988683397" duration="1631000" />
       <workItem from="1716044411318" duration="11281000" />
-      <workItem from="1716068534633" duration="1266000" />
+      <workItem from="1716068534633" duration="6287000" />
     </task>
     <task id="LOCAL-00001" summary="Sketch y mockup para desktop y mobile">
       <option name="closed" value="true" />
@@ -138,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715985222757</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="reescritura del codigo">
+      <option name="closed" value="true" />
+      <created>1716072276128</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716072276128</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +176,7 @@
     <MESSAGE value="Se agrego etiquetas semanticas, carpeta con imagenes, se hizo pagina de registro" />
     <MESSAGE value="avanzamos en varias cosas y no comiteamos por partes" />
     <MESSAGE value="idem commit anterior" />
-    <option name="LAST_COMMIT_MESSAGE" value="idem commit anterior" />
+    <MESSAGE value="reescritura del codigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="reescritura del codigo" />
   </component>
 </project>
