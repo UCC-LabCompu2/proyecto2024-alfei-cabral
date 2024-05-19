@@ -24,20 +24,20 @@
 .logo_boton_inicio
 {
     border-radius: 50%;
-    text-align: left;
 }
 .logo_boton_inicio button
 {
-    border-radius: 50%;
+
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
     background-color: transparent;
 }
 .logo_boton_inicio:hover
 {
-    cursor: cell;
+    cursor: pointer;
 }
 .titulosprincipales
 {
+    display: flex;
     text-align: center;
     color: white;
     font-size: 50px;
@@ -54,7 +54,7 @@
     background-color: transparent;
     border: none;
     color: white;
-    cursor: cell ;
+    cursor: pointer ;
     border-radius: 50%;
     margin: 20px 20px;
     padding:10px 10px;
@@ -89,17 +89,11 @@
     align-items: center;
     font-size: 50px;
     border-radius: 50%;
-    cursor: cell;
+    cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
     background-color: transparent;
 }
-#alquiler button
-{
 
-    border-radius: 50%;
-    text-align: center;
-
-}
 #alquiler button:hover
 {
     background-color: rgba(0, 0, 0, 0.55);
@@ -133,54 +127,11 @@
     font-size: 40px;
     background-color: lightgreen;
 }
-/*#tituloalquiler*/
-/*{*/
-/*    text-align: center;*/
-/*    font-size: 40px;*/
-/*    background-color: lightgreen;*/
-/*}*/
-/*header button:hover a {*/
-/*    border-color: #007bff;*/
-/*    color: #007bff;*/
-/*}*/
 #tituloreserva
 {
     font-size: 70px;
 }
-/*#paginformacion{*/
-/*    font-size: 50px;*/
-/*    text-align: center;*/
-/*    color: white;*/
-/*}*/
-/*#infocanchas{*/
-/*    font-size:25px;*/
-/*    text-align: center;*/
-/*    justify-content: left;*/
-/*    color: white;*/
-/*}*/
-/*#registrodatos{*/
-/*    text-align: center;*/
-/*    font-size: 25px;*/
-/*    color: white;*/
-/*}*/
-/*#selección{*/
-/*    font-size: 30px;*/
-/*    color: white;*/
-/*    text-align: center;*/
-/*    margin-left: 100px;*/
-/*    margin-right: 100px;*/
 
-/*}*/
-/*#confirmaciontexto{*/
-/*    color: white;*/
-/*    text-align: center;*/
-/*    font-size: 30px;*/
-/*}*/
-/*#fintexto{*/
-/*    color: white;*/
-/*    text-align: center;*/
-/*    font-size: 50px;*/
-/*}*/
 #imagenalquiler
 {
     color: lightgreen;
@@ -207,8 +158,12 @@
 }
 .info_de_contacto button
 {
-    text-align: left;
+
 }
 .info_de_contacto:hover {
     background-color: lightblue;
+}
+.formularios
+{
+    border-color: transparent;
 }

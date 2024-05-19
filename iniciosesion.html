@@ -5,16 +5,33 @@
     <title>CanchasExpress.com</title>
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
-<body id="cuerpoiniciosesion" class="cuerpo">
+<body class="cuerpo">
 <header class="headerpadre">
-    <a href="Index.html"><button id="botondeinicio"><img src="Imagenes/foto_logo.jpg" height="100" class="logo_boton_inicio" alt="Logo de página"></button></a>
+    <div>
+    <a href="Index.html"><button id="botondeinicio">
+        <img src="Imagenes/foto_logo.jpg" height="100" class="logo_boton_inicio" alt="Logo de página">
+    </button>
+    </a>
     <h1 class="titulosprincipales">Iniciar Sesión</h1>
+    </div>
 </header>
 <main>
-<p>
-Mail:<input type="email" id="email" placeholder="Ingrese su mail" size="30" maxlength="50"/>
-</p>
-Contraseña: <input type="password" id="password" placeholder="ingrese su contraseña" size="16">
+    <form>
+        <fieldset class="formularios">
+            <div>
+                Mail:<input type="email" id="email" placeholder="Ingrese su mail" size="30" maxlength="50"/>
+            </div>
+            <div>
+                Contraseña: <input type="password" id="password" placeholder="Ingrese su contraseña" size="16">
+            </div>
+        </fieldset>
+    </form>
+
 </main>
+<footer>
+    <a href="Infocontacto.html">
+        <button class="info_de_contacto">Información de Contacto</button>
+    </a>
+</footer>
 </body>
 </html>
