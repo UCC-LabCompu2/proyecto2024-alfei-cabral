@@ -1,9 +1,20 @@
 # CanchasExpress
+
+[Alumnos](#alumnos)
+
+[Descripción](#descripción)
+
+[Tecnologías_Usadas](#tecnologías-usadas)
+
+[Ingresa a CanchasExpress](https://ucc-labcompu2.github.io/proyecto2024-alfei-cabral/Index.html)
+
 ## Alumnos
-* Alfei Mateo
-* Cabral Juan Ignacio
+* **Alfei** Mateo
+* **Cabral** Juan Ignacio
+
 ## Descripción
 *Proyecto 2024*: Página web para reservar canchas de futbol.
+
 | Email | Alumno |
 |-------|--------|
 2308459@ucc.edu.ar |Mateo|
@@ -14,4 +25,6 @@
 * CSS3
 * JavaScript
 
-Link del proyecto:
+Link del proyecto: []()
+
+

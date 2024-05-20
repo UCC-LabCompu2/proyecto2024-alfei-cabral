@@ -94,9 +94,10 @@
     background-color: transparent;
 }
 
-#alquiler button:hover
+#alquiler :hover
 {
-    background-color: rgba(0, 0, 0, 0.55);
+
+    background-color: green;
 }
 #tituloreserva
 {
