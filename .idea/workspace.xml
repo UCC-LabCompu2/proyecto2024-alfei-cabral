@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a89cee00-b7f9-44f5-8c31-113f93bbef81" name="Changes" comment="mejoras de legibilidad, casi terminadas todas las paginas faltan un par de funcionalidades, no se centra correctamente h1 de inicio de sesion y h1 de info de contacto">
+    <list default="true" id="a89cee00-b7f9-44f5-8c31-113f93bbef81" name="Changes" comment="se agrego link a la gh-pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <list id="8fc891fd-2f98-4cdc-87e8-4dc4a5cbc4fe" name="Changes by User" comment="idem commit anterior" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +95,7 @@
       <workItem from="1716044411318" duration="11281000" />
       <workItem from="1716068534633" duration="6762000" />
       <workItem from="1716126055777" duration="6874000" />
-      <workItem from="1716212327678" duration="836000" />
+      <workItem from="1716212327678" duration="1507000" />
     </task>
     <task id="LOCAL-00001" summary="Sketch y mockup para desktop y mobile">
       <option name="closed" value="true" />
@@ -155,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716078482815</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="se agrego link a la gh-pages">
+      <option name="closed" value="true" />
+      <created>1716216130812</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716216130812</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +187,7 @@
     <MESSAGE value="idem commit anterior" />
     <MESSAGE value="reescritura del codigo" />
     <MESSAGE value="mejoras de legibilidad, casi terminadas todas las paginas faltan un par de funcionalidades, no se centra correctamente h1 de inicio de sesion y h1 de info de contacto" />
-    <option name="LAST_COMMIT_MESSAGE" value="mejoras de legibilidad, casi terminadas todas las paginas faltan un par de funcionalidades, no se centra correctamente h1 de inicio de sesion y h1 de info de contacto" />
+    <MESSAGE value="se agrego link a la gh-pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="se agrego link a la gh-pages" />
   </component>
 </project>
