@@ -1,5 +1,5 @@
-.cuerpo {
-    font-family: Arial, sans-serif;
+body{
+    font-family: "Poppins", sans-serif;
     background-image:url("Imagenes/foto_fondo2.jpg");
     background-repeat:no-repeat;
     background-size: cover;
@@ -7,8 +7,9 @@
     font-size: 30px;
     text-align: center;
 }
-.headerpadre{
 
+.headerpadre{
+    font-family: "Poppins", sans-serif;
     background-image: url('Imagenes/foto_header.jpg');
     background-size: cover;
     background-position: center;
@@ -27,7 +28,6 @@
 }
 .logo_boton_inicio button
 {
-
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
     background-color: transparent;
 }
@@ -43,13 +43,10 @@
     font-size: 50px;
 }
 
-#botonesdeusuario {
-    display: flex;
-    gap: 20px;
-
-}
-#botonesdeusuario button
+.botonesdeusuario
 {
+    display: block;
+    gap: 20px;
     font-family: Bahnschrift;
     background-color: transparent;
     border: none;
@@ -60,8 +57,9 @@
     padding:10px 10px;
     transition: background-color 0.5s;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+
 }
-#botonesdeusuario button:hover
+.botonesdeusuario:hover
 {
 
     background-color: rgba(0, 0, 0, 0.55);
@@ -137,15 +135,7 @@
 {
     color: lightgreen;
 }
-/*.botonimagen*/
-/*{*/
-/*    border-radius: 10%;*/
-/*}*/
-/*#textoregistro{*/
-/*    font-size: 30px;*/
-/*    color: white;*/
-/*    text-align: center;*/
-/*}*/
+
 .info_de_contacto {
     font-size: 20px;
     background-color: transparent;

@@ -6,6 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="a89cee00-b7f9-44f5-8c31-113f93bbef81" name="Changes" comment="se agrego link a la gh-pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alquiler.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alquiler.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infoalquileres.html" beforeDir="false" afterPath="$PROJECT_DIR$/Infoalquileres.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infocontacto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registracion.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registracion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmacion.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirmacion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finreserva.html" beforeDir="false" afterPath="$PROJECT_DIR$/finreserva.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iniciosesion.html" beforeDir="false" afterPath="$PROJECT_DIR$/iniciosesion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+    <list id="daf1b462-3eb3-454a-b984-277c1bae4a89" name="Changes by mateo" comment="">
+      <change beforePath="$PROJECT_DIR$/Infoalquileres.html" beforeDir="false" afterPath="$PROJECT_DIR$/Infoalquileres.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registracion.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registracion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iniciosesion.html" beforeDir="false" afterPath="$PROJECT_DIR$/iniciosesion.html" afterDir="false" />
     </list>
     <list id="8fc891fd-2f98-4cdc-87e8-4dc4a5cbc4fe" name="Changes by User" comment="idem commit anterior" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +50,34 @@
     &quot;accountId&quot;: &quot;8c8a3125-9c84-434e-a807-df8980ea084c&quot;
   }
 }</component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/Infoalquileres.html">
+      <ranges>
+        <range start1="6" end1="6" start2="6" end2="7" changelist="a89cee00-b7f9-44f5-8c31-113f93bbef81" />
+        <range start1="41" end1="42" start2="42" end2="42" changelist="daf1b462-3eb3-454a-b984-277c1bae4a89" />
+        <range start1="43" end1="44" start2="43" end2="43" changelist="daf1b462-3eb3-454a-b984-277c1bae4a89" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/iniciosesion.html">
+      <ranges>
+        <range start1="6" end1="6" start2="6" end2="7" changelist="a89cee00-b7f9-44f5-8c31-113f93bbef81" />
+        <range start1="11" end1="14" start2="12" end2="13" changelist="a89cee00-b7f9-44f5-8c31-113f93bbef81" />
+        <range start1="15" end1="16" start2="14" end2="14" changelist="a89cee00-b7f9-44f5-8c31-113f93bbef81" />
+        <range start1="21" end1="22" start2="19" end2="21" changelist="daf1b462-3eb3-454a-b984-277c1bae4a89" />
+        <range start1="24" end1="25" start2="23" end2="25" changelist="daf1b462-3eb3-454a-b984-277c1bae4a89" />
+        <range start1="31" end1="32" start2="31" end2="32" changelist="a89cee00-b7f9-44f5-8c31-113f93bbef81" />
+        <range start1="33" end1="34" start2="33" end2="34" changelist="a89cee00-b7f9-44f5-8c31-113f93bbef81" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/Registracion.html">
+      <ranges>
+        <range start1="6" end1="6" start2="6" end2="7" changelist="a89cee00-b7f9-44f5-8c31-113f93bbef81" />
+        <range start1="20" end1="21" start2="21" end2="21" changelist="daf1b462-3eb3-454a-b984-277c1bae4a89" />
+        <range start1="68" end1="69" start2="68" end2="68" changelist="a89cee00-b7f9-44f5-8c31-113f93bbef81" />
+        <range start1="70" end1="71" start2="69" end2="70" changelist="a89cee00-b7f9-44f5-8c31-113f93bbef81" />
+      </ranges>
+    </file>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -95,7 +137,8 @@
       <workItem from="1716044411318" duration="11281000" />
       <workItem from="1716068534633" duration="6762000" />
       <workItem from="1716126055777" duration="6874000" />
-      <workItem from="1716212327678" duration="1507000" />
+      <workItem from="1716212327678" duration="3937000" />
+      <workItem from="1716219200244" duration="2114000" />
     </task>
     <task id="LOCAL-00001" summary="Sketch y mockup para desktop y mobile">
       <option name="closed" value="true" />

@@ -7,6 +7,10 @@
     <meta name="author" content="Juan Cabral, Mateo Alfei">
     <title>CanchasExpress.com</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Imagenes/faviconcanchasexpress.ico" type="image/x-icon">
 </head>
 
 <body class="cuerpo">
@@ -14,26 +18,25 @@
 <header class="headerpadre">
     <nav id="botonesheader">
         <a href="Index.html">
-            <button id="botondeinicio">
                 <img src="Imagenes/foto_logo.jpg" height="100" class="logo_boton_inicio" alt="Logo de página">
-            </button>
         </a>
         <h1 class="titulosprincipales">CanchasExpress</h1>
-        <div id="botonesdeusuario">
-            <a href="iniciosesion.html">
-                <button id="iniciosesion">INICIAR SESIÓN</button>
+        <div id>
+            <a href="iniciosesion.html" class="botonesdeusuario">
+                INICIAR SESIÓN
             </a>
-            <a href="Registracion.html">
-                <button id="registrarse">REGISTRARSE</button>
+            <a href="Registracion.html" class="botonesdeusuario">
+                REGISTRARSE
             </a>
-            <a href="Infoalquileres.html">
-                <button id="masinfo">+INFO</button>
+            <a href="Infoalquileres.html" class="botonesdeusuario">
+                +INFO
             </a>
         </div>
     </nav>
 </header>
 
 <main>
+
     <h2 id="tituloreserva">¡Reserva tu cancha!</h2>
     <div id="botonesalquiler">
         <div id="botonesalquiler-select">
@@ -50,9 +53,6 @@
             <label for="deporte">Deporte:</label>
             <select id="deporte">
                 <option value="futbol">Fútbol</option>
-                <option value="tenis">Tenis</option>
-                <option value="basquet">Básquet</option>
-                <option value="padel">Pádel</option>
             </select>
 
             <label for="dia">Día:</label>
@@ -63,17 +63,19 @@
         </div>
 
 
-        <a href="Alquiler.html">
-            <button id="alquiler">Alquila!</button>
+        <a href="Alquiler.html" id="alquiler">
+            Alquila!
         </a>
     </div>
-
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
 </main>
 
 <footer>
-    <a href="Infocontacto.html">
+
         <button class="info_de_contacto">Información de Contacto</button>
-    </a>
+
 </footer>
 
 </body>
