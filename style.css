@@ -7,9 +7,7 @@ body{
     font-size: 30px;
     text-align: center;
 }
-
 header{
-
     background-image: url('Imagenes/foto_header.jpg');
     background-size: cover;
     background-position: center;
@@ -36,7 +34,6 @@ header{
     cursor: pointer;
     padding: 0;
 }
-
 .logo_boton_inicio:hover
 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
@@ -48,7 +45,6 @@ header{
     text-align: center;
     flex-grow: 1;
 }
-
 .botonesdeusuario
 {
     font-size: 16px;
@@ -93,6 +89,10 @@ header{
     color: black;
     background-color: -moz-default-background-color;
 }
+.dia-hora{
+    background-color: white;
+    color: black;
+}
 #alquiler{
     color: white;
     font-size: 30px;
@@ -103,7 +103,6 @@ header{
     background-color: transparent;
     text-decoration: none;
 }
-
 #alquiler:hover
 {
     box-shadow: 0 0 18px rgba(0, 0, 0, 0.9);
@@ -112,7 +111,6 @@ header{
 {
     font-size: 50px
 }
-
 #imagenalquiler
 {
     color: lightgreen;
@@ -124,8 +122,6 @@ header{
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.5);
 }
-
-
 footer .info_de_contacto {
     font-family: "Poppins", sans-serif;
     font-size: 20px;

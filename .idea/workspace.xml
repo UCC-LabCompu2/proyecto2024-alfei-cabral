@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a89cee00-b7f9-44f5-8c31-113f93bbef81" name="Changes" comment="se agrego link a la gh-pages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iniciosesion.html" beforeDir="false" afterPath="$PROJECT_DIR$/iniciosesion.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <list id="daf1b462-3eb3-454a-b984-277c1bae4a89" name="Changes by mateo" comment="" />
@@ -98,7 +101,8 @@
       <workItem from="1716126055777" duration="6874000" />
       <workItem from="1716212327678" duration="3937000" />
       <workItem from="1716219200244" duration="2114000" />
-      <workItem from="1716254557315" duration="332000" />
+      <workItem from="1716254557315" duration="614000" />
+      <workItem from="1716299115481" duration="3260000" />
     </task>
     <task id="LOCAL-00001" summary="Sketch y mockup para desktop y mobile">
       <option name="closed" value="true" />
