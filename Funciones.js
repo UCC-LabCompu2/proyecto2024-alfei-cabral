@@ -58,3 +58,42 @@ span.onclick = function() {
 window.onclick = function(event) {
     ManejarClickFueraDelModal(event);
 }
+let bandera=false;
+
+let dibujar = (event) => {
+    const canvas = document.getElementById("myCanvas");
+    const ctx = canvas.getContext("2d");
+
+    // Obtener la posición del canvas en la página
+    let rect = canvas.getBoundingClientRect();
+
+    // Calcular las coordenadas del ratón ajustadas al canvas
+    let posX = event.clientX - rect.left;
+    let posY = event.clientY - rect.top;
+
+    if (bandera) {
+        ctx.fillRect(posX, posY, 5, 5);
+    }
+};
+
+function cargarEventListener() {
+    const canvas = document.getElementById("myCanvas");
+
+    canvas.addEventListener('mousedown', () => {
+        bandera = true;
+    });
+
+    canvas.addEventListener('mousemove', dibujar);
+
+    canvas.addEventListener('mouseup', () => {
+        bandera = false;
+    });
+}
+
+function borrarCanvas() {
+    const canvas = document.getElementById("myCanvas");
+    const ctx = canvas.getContext("2d");
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
+
+window.onload = cargarEventListener;

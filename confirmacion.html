@@ -16,7 +16,7 @@
           rel="stylesheet">
     <script type="text/javascript" src="Funciones.js" defer></script>
 </head>
-<body>
+<body onload="cargarEventListener()">
 <header>
     <nav class="botonesheader">
         <a href="Index.html">
@@ -32,9 +32,17 @@
     </p>
     <p>Ubicación: La gran 7</p>
     <p>Precio: $12000</p>
-    <canvas id="myCanvas" width="10" height="10"></canvas>
-        <p>
-        <a href="finreserva.html" class="botonesdeusuario">Confirma tu reserva</a>
+    <p>
+        Realice su firma:
+    </p>
+    <canvas id="myCanvas" >
+        Tu navegador no soporta el tag de HTML5 canvas.
+    </canvas>
+    <p>
+    <button type="button" id="borrar_lienzo"onclick="borrarCanvas()">Borrar Lienzo</button>
+    </p>
+    <p>
+        <a href="finreserva.html"  class="botonesdeusuario">Confirma tu reserva</a>
     </p>
 </main>
 <footer>
