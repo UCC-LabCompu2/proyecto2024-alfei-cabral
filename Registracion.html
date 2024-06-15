@@ -28,9 +28,9 @@
 </header>
 <main>
     <h3>Regístrate</h3>
-    <form>
+    <form id="registroForm" class="formulario">
         <fieldset class="formularios">
-            <legend>Información Personal</legend>
+            <legend>Formulario de Registro</legend>
             <div>
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" maxlength="40">
@@ -40,34 +40,31 @@
                 <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" maxlength="40">
             </div>
             <div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Ingrese su email" maxlength="50">
+                <label for="emailRegistro">Email:</label>
+                <input type="email" id="emailRegistro" class="formulario_mail" name="emailRegistro" placeholder="Ingrese su email" maxlength="50">
             </div>
             <div>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" placeholder="Ingrese su contraseña">
+                <label for="passwordRegistro">Password:</label>
+                <input type="password" id="passwordRegistro" class="formulario_contraseña" name="passwordRegistro" placeholder="Ingrese su contraseña">
             </div>
             <div>
-                <label for="confirmpassword">Confirmar Password:</label>
-                <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirmar contraseña">
+                <label for="confirmPassword">Confirmar Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirmar contraseña">
             </div>
             <div>
-                <label for="numerodetelefono">Número de Teléfono:</label>
-                <input type="tel" id="numerodetelefono" name="numerodetelefono"
-                       placeholder="Ingrese su número de teléfono" maxlength="15">
+                <label for="telefono">Número de Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su número de teléfono" maxlength="15">
             </div>
         </fieldset>
         <fieldset class="formularios">
             <legend>Información de Pago</legend>
             <div>
-                <label for="tarjetadecredito">Tarjeta de Crédito:</label>
-                <input type="text" id="tarjetadecredito" name="tarjetadecredito"
-                       placeholder="Ingrese el número de su tarjeta" maxlength="16">
+                <label for="tarjetaCredito">Tarjeta de Crédito:</label>
+                <input type="text" id="tarjetaCredito" name="tarjetaCredito" placeholder="Ingrese el número de su tarjeta" maxlength="16">
             </div>
             <div>
-                <label for="codigodeseguridad">Código de Seguridad:</label>
-                <input type="text" id="codigodeseguridad" name="codigodeseguridad"
-                       placeholder="Ingrese el código de seguridad" maxlength="3">
+                <label for="codigoSeguridad">Código de Seguridad:</label>
+                <input type="text" id="codigoSeguridad" name="codigoSeguridad" placeholder="Ingrese el código de seguridad" maxlength="3">
             </div>
             <div>
                 <button type="submit" class="botonesdeusuario">Registrarse</button>
