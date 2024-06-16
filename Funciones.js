@@ -1,43 +1,30 @@
 const MostrarInfoDeContacto = () => {
-    // Obtener el modal por su clase
     const modal = document.querySelector(".modal");
-    // Mostrar el modal estableciendo su estilo display a 'block'
     modal.style.display = "block";
 }
 
 const CerrarModal = () => {
-    // Obtener el modal por su clase
     const modal = document.querySelector(".modal");
-    // Ocultar el modal estableciendo su estilo display a 'none'
     modal.style.display = "none";
 }
 
 const ManejarClickFueraDelModal = (event) => {
-    // Obtener el modal por su clase
     const modal = document.querySelector(".modal");
-    // Si el objetivo del clic es el modal (fondo oscurecido), cerrar el modal
     if (event.target == modal) {
         modal.style.display = "none";
     }
 }
 
-// Obtener el botón que abre el modal
 const btn = document.querySelector(".info_de_contacto");
-
-// Obtener el elemento <span> que cierra el modal
 const span = document.querySelector(".close");
 
-// Cuando el usuario hace clic en el botón, abre el modal
 btn.onclick = () => {
     MostrarInfoDeContacto();
 }
-
-// Cuando el usuario hace clic en <span> (x), cierra el modal
 span.onclick = () => {
     CerrarModal();
 }
 
-// Cuando el usuario hace clic fuera del modal, lo cierra
 window.onclick = (event) => {
     ManejarClickFueraDelModal(event);
 }
@@ -75,17 +62,17 @@ const esCanvasVacio = () => {
     const canvasData = ctx.getImageData(0, 0, canvas.width, canvas.height);
 
     for (let i = 0; i < canvasData.data.length; i += 4) {
-        if (canvasData.data[i + 3] !== 0) { // Revisar el valor del canal alfa
-            return false; // Hay algo dibujado en el canvas
+        if (canvasData.data[i + 3] !== 0) {
+            return false;
         }
     }
-    return true; // El canvas está vacío
+    return true;
 }
 const confirmarReserva = () => {
     if (esCanvasVacio()) {
         alert('Por favor, ingrese su firma antes de confirmar la reserva.');
     } else {
-        window.location.href = 'finreserva.html'; // Redirige a la página de finalización de reserva
+        window.location.href = 'finreserva.html';
     }
 }
 const borrarCanvas = () => {
@@ -94,7 +81,7 @@ const borrarCanvas = () => {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 }
 const ValidarRegistro = (event) => {
-    event.preventDefault(); // Evitar el envío del formulario por defecto
+    event.preventDefault();
 
     const nombre = document.getElementById('nombre');
     const apellido = document.getElementById('apellido');
