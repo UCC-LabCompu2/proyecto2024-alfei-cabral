@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="description"
           content="La pagina se especializa en proveer un sistema de alquiler de canchas de varios deportes">
-    <meta name="keywords" content="Alquilar,Registrarse,Inicio de sesion,Info de la pagina,ciudad deportes, ">
+    <meta name="keywords" content="Alquilar,Registrarse,Inicio de sesion,Info de la pagina,ciudad deportes,">
     <meta name="author" content="Juan Cabral, Mateo Alfei">
     <title>CanchasExpress.com</title>
     <link rel="stylesheet" href="style.css" type="text/css">
@@ -16,7 +16,7 @@
     <script type="text/javascript" src="Funciones.js" defer></script>
 </head>
 
-<body>
+<body onclick="ManejarClickFueraDelModal(event)" onload="validarCampos()">
 
 <header>
     <nav class="botonesheader">
@@ -39,47 +39,46 @@
 </header>
 
 <main>
-
     <h2 id="tituloreserva">¡Reserva tu cancha!</h2>
     <div id="botonesalquiler">
         <div id="botonesalquiler-select">
-            <label for="ciudad">Ciudad:</label>
-            <select name="ciudad" id="ciudad">
-                <option value="buenos aires">Buenos Aires</option>
-                <option value="cordoba"> Córdoba</option>
-                <option value="catamarca"> Catamarca</option>
-                <option value="santa fe"> Santa Fe</option>
-                <option value="tierra del fuego"> Tierra del Fuego</option>
+            <label for="ciudadIndex">Ciudad:</label>
+            <select name="ciudad" id="ciudadIndex" onchange="validarCampos()">
+                <option value="">Seleccione una ciudad</option>
+                <option value="Buenos Aires">Buenos Aires</option>
+                <option value="Cordoba"> Córdoba</option>
+                <option value="Catamarca"> Catamarca</option>
+                <option value="Santa fe"> Santa Fe</option>
+                <option value="Tierra del fuego"> Tierra del Fuego</option>
                 <option value="misiones"> Misiones</option>
             </select>
 
-            <label for="deporte">Deporte:</label>
-            <select id="deporte">
-                <option value="futbol">Fútbol</option>
+            <label for="deporteIndex">Deporte:</label>
+            <select id="deporteIndex" onchange="validarCampos()">
+                <option value="">Seleccione un deporte</option>
+                <option value="Fútbol">Fútbol</option>
             </select>
 
             <label for="dia">Día:</label>
-            <input type="date" id="dia" min="2024-05-15">
+            <input type="date" id="dia" min="2024-06-18" onchange="validarCampos()">
 
             <label for="hora">Hora:</label>
-            <input type="time" id="hora">
+            <input type="time" id="hora" onchange="validarCampos()">
         </div>
 
-
-        <a href="Alquiler.html" id="alquiler" >
+        <a href="Alquiler.html" id="alquiler" onclick="manejarAlquilerClick(event)">
             Alquila!
         </a>
     </div>
 </main>
-
 <footer>
 
     <button class="info_de_contacto" onclick="MostrarInfoDeContacto()">Información de Contacto</button>
 
 </footer>
-<div class="modal">
+<div class="modal" onclick="ManejarClickFueraDelModal(event)">
     <div class="modal-content">
-        <span class="close">&times;</span>
+        <span class="close" onclick="CerrarModal()">&times;</span>
         <h2>Información de Contacto</h2>
         <p>Nombres: Juan Cabral y Mateo Alfei</p>
         <p>Correos: jicabral65@gmail.com - mateoalfei@gmail.com</p>

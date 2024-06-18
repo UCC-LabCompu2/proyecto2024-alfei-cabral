@@ -12,23 +12,22 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
           rel="stylesheet">
     <script type="text/javascript" src="Funciones.js" defer></script>
 </head>
-<body>
+<body onclick="ManejarClickFueraDelModal(event)">
 <header>
     <nav class="botonesheader">
         <a href="Index.html">
             <img src="Imagenes/foto_logo.jpg" height="100" class="logo_boton_inicio" alt="Logo de página">
         </a>
         <h1 class="titulosprincipales">Registro de Usuario</h1>
-
     </nav>
 </header>
 <main>
     <h3>Regístrate</h3>
-    <form id="registroForm" class="formulario">
+    <form id="registroForm" class="formulario" onsubmit="ValidarRegistro(event)">
         <fieldset class="formularios">
             <legend>Formulario de Registro</legend>
             <div>
@@ -41,11 +40,13 @@
             </div>
             <div>
                 <label for="emailRegistro">Email:</label>
-                <input type="email" id="emailRegistro" class="formulario_mail" name="emailRegistro" placeholder="Ingrese su email" maxlength="50">
+                <input type="text" id="emailRegistro" class="formulario_mail" name="emailRegistro"
+                       placeholder="Ingrese su email" maxlength="50">
             </div>
             <div>
                 <label for="passwordRegistro">Password:</label>
-                <input type="password" id="passwordRegistro" class="formulario_contraseña" name="passwordRegistro" placeholder="Ingrese su contraseña">
+                <input type="password" id="passwordRegistro" class="formulario_contraseña" name="passwordRegistro"
+                       placeholder="Ingrese su contraseña">
             </div>
             <div>
                 <label for="confirmPassword">Confirmar Password:</label>
@@ -53,18 +54,21 @@
             </div>
             <div>
                 <label for="telefono">Número de Teléfono:</label>
-                <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su número de teléfono" maxlength="15">
+                <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su número de teléfono"
+                       maxlength="15">
             </div>
         </fieldset>
         <fieldset class="formularios">
             <legend>Información de Pago</legend>
             <div>
                 <label for="tarjetaCredito">Tarjeta de Crédito:</label>
-                <input type="text" id="tarjetaCredito" name="tarjetaCredito" placeholder="Ingrese el número de su tarjeta" maxlength="16">
+                <input type="text" id="tarjetaCredito" name="tarjetaCredito"
+                       placeholder="Ingrese el número de su tarjeta" maxlength="18">
             </div>
             <div>
                 <label for="codigoSeguridad">Código de Seguridad:</label>
-                <input type="text" id="codigoSeguridad" name="codigoSeguridad" placeholder="Ingrese el código de seguridad" maxlength="3">
+                <input type="text" id="codigoSeguridad" name="codigoSeguridad"
+                       placeholder="Ingrese el código de seguridad" maxlength="4">
             </div>
             <div>
                 <button type="submit" class="botonesdeusuario">Registrarse</button>
@@ -77,9 +81,9 @@
     <button class="info_de_contacto" onclick="MostrarInfoDeContacto()">Información de Contacto</button>
 
 </footer>
-<div class="modal">
+<div class="modal" onclick="ManejarClickFueraDelModal(event)">
     <div class="modal-content">
-        <span class="close">&times;</span>
+        <span class="close" onclick="CerrarModal()">&times;</span>
         <h2>Información de Contacto</h2>
         <p>Nombres: Juan Cabral y Mateo Alfei</p>
         <p>Correos: jicabral65@gmail.com - mateoalfei@gmail.com</p>

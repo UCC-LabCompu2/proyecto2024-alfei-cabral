@@ -1,13 +1,14 @@
-body{
+body {
     font-family: "Poppins", sans-serif;
-    background-image:url("Imagenes/foto_fondo2.jpg");
-    background-repeat:no-repeat;
+    background-image: url("Imagenes/foto_fondo2.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     color: white;
     font-size: 30px;
     text-align: center;
 }
-header{
+
+header {
     background-image: url('Imagenes/foto_header.jpg');
     background-size: cover;
     background-position: center;
@@ -17,58 +18,62 @@ header{
     justify-content: space-between;
     padding: 0 30px;
 }
+
 .botonesheader {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
 }
-.botonesheader a{
+
+.botonesheader a {
     font-size: 16px
 }
-.logo_boton_inicio
-{
+
+.logo_boton_inicio {
     border-radius: 50%;
     border: none;
     background: none;
     cursor: pointer;
     padding: 0;
 }
-.logo_boton_inicio:hover
-{
+
+.logo_boton_inicio:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
 }
-.titulosprincipales
-{
+
+.titulosprincipales {
     color: white;
     font-size: 50px;
     text-align: center;
     flex-grow: 1;
 }
-.botonesdeusuario
-{
+
+.botonesdeusuario {
     font-size: 16px;
     background-color: transparent;
     border: none;
     color: white;
-    cursor: pointer ;
+    cursor: pointer;
     border-radius: 40%;
     margin-left: 20px;
-    padding:10px 20px;
+    padding: 10px 20px;
     transition: background-color 0.5s;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
     text-decoration: none;
 }
-.botonesdeusuario:hover
-{
+
+.botonesdeusuario:hover {
     background-color: rgba(0, 0, 0, 0.55);
 }
+
 #botonesalquiler {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px 0;
 }
+
 #botonesalquiler-select {
     display: flex;
     flex-wrap: wrap;
@@ -77,23 +82,26 @@ header{
     text-align: center;
     margin-bottom: 20px;
 }
+
 #botonesalquiler-select label,
 #botonesalquiler-select input {
     font-size: 20px;
     color: white;
     background-color: transparent;
 }
-#botonesalquiler-select select
-{
+
+#botonesalquiler-select select {
     font-size: 20px;
     color: black;
     background-color: -moz-default-background-color;
 }
-.dia-hora{
+
+.dia-hora {
     background-color: white;
     color: black;
 }
-#alquiler{
+
+#alquiler {
     color: white;
     font-size: 30px;
     padding: 10px 20px;
@@ -103,18 +111,19 @@ header{
     background-color: transparent;
     text-decoration: none;
 }
-#alquiler:hover
-{
+
+#alquiler:hover {
     box-shadow: 0 0 18px rgba(0, 0, 0, 0.9);
 }
-#tituloreserva
-{
+
+#tituloreserva {
     font-size: 50px
 }
-#imagenalquiler
-{
+
+#imagenalquiler {
     color: lightgreen;
 }
+
 .formularios {
     margin: 20px;
     padding: 20px;
@@ -122,6 +131,7 @@ header{
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 footer .info_de_contacto {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
@@ -138,10 +148,11 @@ footer .info_de_contacto {
 .info_de_contacto:hover {
     background-color: lightblue;
 }
-.formularios
-{
+
+.formularios {
     border-color: transparent;
 }
+
 .modal {
     display: none;
     position: fixed;
@@ -151,7 +162,7 @@ footer .info_de_contacto {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .modal-content {
@@ -178,17 +189,21 @@ footer .info_de_contacto {
     cursor: pointer;
 }
 
-#myCanvas{
+#myCanvas {
     width: 300px;
-    height:200px;
+    height: 200px;
     background-color: white;
 }
 
 
-#borrar_lienzo{
+#borrar_lienzo {
     border-radius: 5px;
 }
 
-#borrar_lienzo{
+#borrar_lienzo {
     border-radius: 5px;
+}
+
+#infoReservaCanvas {
+    background-color: white;
 }

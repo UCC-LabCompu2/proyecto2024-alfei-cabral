@@ -16,7 +16,7 @@
           rel="stylesheet">
     <script type="text/javascript" src="Funciones.js" defer></script>
 </head>
-<body onload="cargarEventListener()">
+<body onclick="ManejarClickFueraDelModal(event)">
 <header>
     <nav class="botonesheader">
         <a href="Index.html">
@@ -35,25 +35,22 @@
     <p>
         Realice su firma:
     </p>
-    <canvas id="myCanvas">
+    <canvas id="myCanvas" onmousedown="bandera = true;" onmousemove="dibujar(event);" onmouseup="bandera = false;">
         Tu navegador no soporta el tag de HTML5 canvas.
     </canvas>
     <p>
-    <button type="button" id="borrar_lienzo" onclick="borrarCanvas()">Rehacer Firma</button>
+        <button type="button" id="borrar_lienzo" onclick="borrarCanvas()">Rehacer Firma</button>
     </p>
     <p>
         <button type="button" class="botonesdeusuario" onclick="confirmarReserva()">Confirma tu reserva</button>
-
     </p>
 </main>
 <footer>
-
     <button class="info_de_contacto" onclick="MostrarInfoDeContacto()">Información de Contacto</button>
-
 </footer>
-<div class="modal">
+<div class="modal" onclick="ManejarClickFueraDelModal(event)">
     <div class="modal-content">
-        <span class="close">&times;</span>
+        <span class="close" onclick="CerrarModal()">&times;</span>
         <h2>Información de Contacto</h2>
         <p>Nombres: Juan Cabral y Mateo Alfei</p>
         <p>Correos: jicabral65@gmail.com - mateoalfei@gmail.com</p>

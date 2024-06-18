@@ -16,7 +16,7 @@
           rel="stylesheet">
     <script type="text/javascript" src="Funciones.js" defer></script>
 </head>
-<body>
+<body onclick="ManejarClickFueraDelModal(event)">
 <header>
     <nav class="botonesheader">
         <a href="Index.html">
@@ -57,9 +57,9 @@
     <button class="info_de_contacto" onclick="MostrarInfoDeContacto()">Información de Contacto</button>
 
 </footer>
-<div class="modal">
+<div class="modal" onclick="ManejarClickFueraDelModal(event)">
     <div class="modal-content">
-        <span class="close">&times;</span>
+        <span class="close" onclick="CerrarModal()">&times;</span>
         <h2>Información de Contacto</h2>
         <p>Nombres: Juan Cabral y Mateo Alfei</p>
         <p>Correos: jicabral65@gmail.com - mateoalfei@gmail.com</p>
