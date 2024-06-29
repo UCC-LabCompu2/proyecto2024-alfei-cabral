@@ -25,21 +25,7 @@ const ManejarClickFueraDelModal = (event) => {
         modal.style.display = "none";
     }
 }
-/**
- * Maneja el clic en el botón de alquiler para guardar los datos seleccionados en localStorage.
- * @method manejarAlquilerClick
- * @param {Event} event - El evento de clic.
- */
-const manejarAlquilerClick = (event) => {
-    const horario = document.getElementById('hora').value;
-    const fecha = document.getElementById('dia').value;
-    const ciudad = document.getElementById('ciudadIndex').value;
-    const deporte = document.getElementById('deporteIndex').value;
-    localStorage.setItem('horarioReserva', horario);
-    localStorage.setItem('ciudadReserva', ciudad);
-    localStorage.setItem('fechaReserva', fecha);
-    localStorage.setItem('deporteReserva', deporte);
-}
+
 /**
  * Valida si todos los campos obligatorios del formulario de reserva están completos.
  * Habilita o deshabilita el botón de alquiler en función de la validación.
@@ -50,7 +36,6 @@ const validarCampos = () => {
     const deporte = document.getElementById('deporteIndex').value;
     const dia = document.getElementById('dia').value;
     const hora = document.getElementById('hora').value;
-
     const botonAlquila = document.getElementById('alquiler');
     if (ciudad && deporte && dia && hora) {
         botonAlquila.removeAttribute('disabled');
@@ -59,6 +44,27 @@ const validarCampos = () => {
         botonAlquila.setAttribute('disabled', 'disabled');
         botonAlquila.style.opacity = 0.5;
     }
+}
+/**
+ * Maneja el clic en el botón de alquiler para guardar los datos seleccionados en localStorage.
+ * @method manejarAlquilerClick
+ * @param {Event} event - El evento de clic.
+ */
+const manejarAlquilerClick = (event) => {
+    if (document.getElementById('alquiler').hasAttribute('disabled')) {
+        event.preventDefault(); // Evita la redirección si el botón está deshabilitado
+        return;
+    }
+    const horario = document.getElementById('hora').value;
+    const fecha = document.getElementById('dia').value;
+    const ciudad = document.getElementById('ciudadIndex').value;
+    const deporte = document.getElementById('deporteIndex').value;
+    localStorage.setItem('horarioReserva', horario);
+    localStorage.setItem('ciudadReserva', ciudad);
+    localStorage.setItem('fechaReserva', fecha);
+    localStorage.setItem('deporteReserva', deporte);
+
+    window.location.href = 'Alquiler.html';
 }
 /**
  * Dibuja en el canvas cuando el ratón está presionado.
@@ -226,6 +232,7 @@ const ValidarRegistro = (event) => {
     telefono.value = '';
     tarjetaCredito.value = '';
     codigoSeguridad.value = '';
+    window.location.href = 'Index.html';
 }
 const validarInicioSesion = (event) => {
     event.preventDefault();
@@ -251,6 +258,7 @@ const validarInicioSesion = (event) => {
     alert('Inicio de Sesióna exitoso.');
     emailInicioSesion.value = '';
     passwordInicioSesion.value = '';
+    window.location.href = 'Index.html';
 }
 /**
  * Toma los datos del localStorage y los muestra en el canvas
@@ -258,32 +266,25 @@ const validarInicioSesion = (event) => {
  */
 const canvasFinReserva = () => {
 
-    let horarioReserva = localStorage.getItem('horarioReserva');
-    let ciudadReserva = localStorage.getItem('ciudadReserva');
-    let deporteReserva = localStorage.getItem('deporteReserva');
-    let fechaReserva = localStorage.getItem('fechaReserva');
+    const horarioReserva = localStorage.getItem('horarioReserva');
+    const ciudadReserva = localStorage.getItem('ciudadReserva');
+    const deporteReserva = localStorage.getItem('deporteReserva');
+    const fechaReserva = localStorage.getItem('fechaReserva');
 
     const canvas = document.getElementById('infoReservaCanvas');
     const ctx = canvas.getContext('2d');
-
+    const margenX = 20;
+    const margenY1 = 30;
+    const margenY2 = 60;
+    const margenY3 = 90;
+    const margenY4 = 120;
     ctx.font = '20px Arial';
     ctx.fillStyle = '#333';
-    if (horarioReserva) {
-
-        ctx.fillText(`Horario: ${horarioReserva}`, 20, 30)
-    }
-
-    if (ciudadReserva) {
-
-        ctx.fillText(`Ciudad: ${ciudadReserva}`, 20, 60);
-    }
-
-    if (deporteReserva) {
-        ctx.fillText(`Deporte: ${deporteReserva}`, 20, 90);
-    }
-
-    if (fechaReserva) {
-        ctx.fillText(`Fecha: ${fechaReserva}`, 20, 120);
+    if (horarioReserva && ciudadReserva && deporteReserva && fechaReserva) {
+        ctx.fillText(`Horario: ${horarioReserva}`, margenX, margenY1)
+        ctx.fillText(`Ciudad: ${ciudadReserva}`, margenX, margenY2);
+        ctx.fillText(`Deporte: ${deporteReserva}`, margenX, margenY3);
+        ctx.fillText(`Fecha: ${fechaReserva}`, margenX, margenY4);
     } else {
         console.error('No se encontró el canvas con ID "infoReservaCanvas".');
     }
