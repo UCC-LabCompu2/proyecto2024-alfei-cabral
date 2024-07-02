@@ -66,6 +66,7 @@ const manejarAlquilerClick = (event) => {
 
     window.location.href = 'Alquiler.html';
 }
+let bandera ;
 /**
  * Dibuja en el canvas cuando el ratón está presionado.
  * @method dibujar
@@ -82,7 +83,6 @@ const dibujar = (event) => {
         ctx.fillRect(posX, posY, 5, 5);
     }
 };
-let bandera = false;
 /**
  * Verifica si el canvas está vacío.
  * @method esCanvasVacio
@@ -274,18 +274,35 @@ const canvasFinReserva = () => {
     const canvas = document.getElementById('infoReservaCanvas');
     const ctx = canvas.getContext('2d');
     const margenX = 20;
-    const margenY1 = 30;
-    const margenY2 = 60;
-    const margenY3 = 90;
-    const margenY4 = 120;
+    let margenY1 = 0;
+    let margenY2 = 0;
+    let margenY3 = 0;
+    let margenY4 = 0;
+    const targetY1 = 30;
+    const targetY2 = 60;
+    const targetY3 = 90;
+    const targetY4 = 120;
+    const speed = 2;
     ctx.font = '20px Arial';
     ctx.fillStyle = '#333';
-    if (horarioReserva && ciudadReserva && deporteReserva && fechaReserva) {
-        ctx.fillText(`Horario: ${horarioReserva}`, margenX, margenY1)
-        ctx.fillText(`Ciudad: ${ciudadReserva}`, margenX, margenY2);
-        ctx.fillText(`Deporte: ${deporteReserva}`, margenX, margenY3);
-        ctx.fillText(`Fecha: ${fechaReserva}`, margenX, margenY4);
-    } else {
-        console.error('No se encontró el canvas con ID "infoReservaCanvas".');
-    }
+    const draw = () => {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        if (horarioReserva && ciudadReserva && deporteReserva && fechaReserva) {
+            if (margenY1 < targetY1) margenY1 += speed;
+            if (margenY2 < targetY2) margenY2 += speed;
+            if (margenY3 < targetY3) margenY3 += speed;
+            if (margenY4 < targetY4) margenY4 += speed;
+
+            ctx.fillText(`Horario: ${horarioReserva}`, margenX, margenY1);
+            ctx.fillText(`Ciudad: ${ciudadReserva}`, margenX, margenY2);
+            ctx.fillText(`Deporte: ${deporteReserva}`, margenX, margenY3);
+            ctx.fillText(`Fecha: ${fechaReserva}`, margenX, margenY4);
+
+            requestAnimationFrame(draw);
+        } else {
+            console.error('No se encontraron datos de reserva en el almacenamiento local.');
+        }
+    };
+
+    draw();
 };
