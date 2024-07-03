@@ -255,7 +255,7 @@ const validarInicioSesion = (event) => {
         passwordInicioSesion.value = '';
         return;
     }
-    alert('Inicio de Sesióna exitoso.');
+    alert('Inicio de Sesión exitoso.');
     emailInicioSesion.value = '';
     passwordInicioSesion.value = '';
     window.location.href = 'Index.html';
